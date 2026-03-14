@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    android:padding="16dp"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false">
+
+    <!-- Заголовок "Продукты" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="Продукты"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <!-- Заголовок "Куплено" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="Куплено"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <!-- Разделитель для создания отступа между колонками (опционально) -->
+    <Space
+        android:layout_width="16dp"
+        android:layout_height="match_parent"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="4"
+        android:layout_gravity="right"/>
+
+    <!-- Продукт 1: Сливы -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="Сливы"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"/>
+
+    <!-- Продукт 2: Бананы -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="Бананы"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"/>
+
+    <!-- Продукт 3: Яблоко -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal"
+        android:text="Яблоко"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"/>
+
+</GridLayout>

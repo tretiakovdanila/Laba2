@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <!-- Кнопка в левом верхнем углу -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Верх лево"
+        android:layout_gravity="top|left"
+        android:layout_margin="10dp"/>
+
+    <!-- Кнопка в правом верхнем углу -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Верх право"
+        android:layout_gravity="top|right"
+        android:layout_margin="10dp"/>
+
+    <!-- Кнопка в центре -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Центр"
+        android:layout_gravity="center"/>
+
+    <!-- Кнопка в левом нижнем углу -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Низ лево"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="10dp"/>
+
+    <!-- Кнопка в правом нижнем углу -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Низ право"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="10dp"/>
+
+</FrameLayout>
